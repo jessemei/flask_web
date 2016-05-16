@@ -3,7 +3,6 @@
 from flask import Flask,render_template,request
 from flask.ext.script import Manager
 from livereload import Server
-import os
 app = Flask(__name__)
 manage = Manager(app)
 
