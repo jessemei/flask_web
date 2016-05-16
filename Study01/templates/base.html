@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block title %}
+    <meta charset="UTF-8">
+    <title>劳资</title>
+    {% endblock %}
+</head>
+<body>
+<header>{%  block header %}<h1>有种你重写</h1>{% endblock %}</header>
+<div>{% block content %}{% endblock %}</div>
+<footer>{% block footer  %}
+   这是我练习模板继承的页面 <a href="baidu.com">jesse</a>
+
+{%  endblock %}
+</footer>
+
+</body>
+</html>
