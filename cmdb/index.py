@@ -8,7 +8,12 @@ manage = Manager(app)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
+
+@app.route('/fenlei')
+def index1():
+    return render_template('fenlei.html')
+
 
 @manage.command
 def dev():
